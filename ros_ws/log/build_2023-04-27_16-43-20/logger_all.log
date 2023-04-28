@@ -1,0 +1,154 @@
+[0.281s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.281s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd25455fe20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd254d9ac80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd254d9ac80>>)
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.298s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.298s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/ros_ws'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_gazebo_template) by extension 'ros'
+[0.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_gazebo_template' with type 'ros.ament_cmake' and name 'ros2_gazebo_template'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(world) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.308s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.320s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.322s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 311 installed packages in /opt/ros/humble
+[0.323s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_target' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_clean_cache' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_clean_first' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'cmake_force_configure' from command line to 'False'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'ament_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'catkin_cmake_args' from command line to 'None'
+[0.352s] Level 5:colcon.colcon_core.verb:set package 'ros2_gazebo_template' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.353s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_gazebo_template' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/ros_ws/build/ros2_gazebo_template', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/ros_ws/install/ros2_gazebo_template', 'merge_install': False, 'path': '/home/ubuntu/ros_ws/src/ros2_gazebo_template', 'symlink_install': False, 'test_result_base': None}
+[0.353s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.354s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.355s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/ros_ws/src/ros2_gazebo_template' with build type 'ament_cmake'
+[0.355s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/ros_ws/src/ros2_gazebo_template'
+[0.357s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[70.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[70.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[70.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gazebo_template)
+[70.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[70.449s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template' for CMake module files
+[70.450s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template' for CMake config files
+[70.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gazebo_template', 'cmake_prefix_path')
+[70.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.ps1'
+[70.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.dsv'
+[70.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.sh'
+[70.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/bin'
+[70.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/lib/pkgconfig/ros2_gazebo_template.pc'
+[70.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/lib/python3.10/site-packages'
+[70.452s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/bin'
+[70.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.ps1'
+[70.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.dsv'
+[70.453s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.sh'
+[70.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.bash'
+[70.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.zsh'
+[70.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/colcon-core/packages/ros2_gazebo_template)
+[70.467s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_gazebo_template)
+[70.468s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template' for CMake module files
+[70.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template' for CMake config files
+[70.469s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_gazebo_template', 'cmake_prefix_path')
+[70.469s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.ps1'
+[70.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.dsv'
+[70.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/hook/cmake_prefix_path.sh'
+[70.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/bin'
+[70.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/lib/pkgconfig/ros2_gazebo_template.pc'
+[70.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/lib/python3.10/site-packages'
+[70.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/ros_ws/install/ros2_gazebo_template/bin'
+[70.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.ps1'
+[70.471s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.dsv'
+[70.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.sh'
+[70.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.bash'
+[70.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.zsh'
+[70.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/ros_ws/install/ros2_gazebo_template/share/colcon-core/packages/ros2_gazebo_template)
+[70.472s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[70.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[70.473s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[70.473s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[70.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[70.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[70.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[70.554s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[70.557s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[70.558s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[70.559s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.ps1'
+[70.559s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/install/_local_setup_util_ps1.py'
+[70.560s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.ps1'
+[70.561s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.sh'
+[70.561s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/ros_ws/install/_local_setup_util_sh.py'
+[70.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.sh'
+[70.562s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.bash'
+[70.562s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.bash'
+[70.563s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/ros_ws/install/local_setup.zsh'
+[70.563s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/ros_ws/install/setup.zsh'

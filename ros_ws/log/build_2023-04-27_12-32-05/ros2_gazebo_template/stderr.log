@@ -1,0 +1,29 @@
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosTemplate::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:60:67:[m[K [01;31m[Kerror: [m[K‘[01m[KConnectWorldUpdateBegin[m[K’ is not a member of ‘[01m[Kgazebo::event::Event[m[K’
+   60 |                 impl_->update_connection_ = gazebo::event::Event::[01;31m[KConnectWorldUpdateBegin[m[K(
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gazebo-11/gazebo/plugins/ElevatorPlugin.hh:28[m[K,
+                 from [01m[K/opt/ros/humble/include/gazebo_plugins/gazebo_ros_elevator.hpp:18[m[K,
+                 from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:3[m[K:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In function ‘[01m[Kgazebo::ModelPlugin* gazebo::RegisterPlugin()[m[K’:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KGazeboTemplate[m[K’
+   77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+      |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KGazeboTemplate[m[K’
+   77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+      |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboTemplate[m[K’ was not declared in this scope; did you mean ‘[01m[KGazeboRosTemplate[m[K’?
+   77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+      |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+  459 |     return new [01;36m[Kclassname[m[K();\
+      |                [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76：CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_gazebo_template.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

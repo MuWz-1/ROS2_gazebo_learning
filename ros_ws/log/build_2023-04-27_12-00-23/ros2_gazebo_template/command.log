@@ -1,0 +1,2 @@
+Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros_ws/src/ros2_gazebo_template -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros_ws/install/ros2_gazebo_template
+Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/ros_ws/src/ros2_gazebo_template -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros_ws/install/ros2_gazebo_template

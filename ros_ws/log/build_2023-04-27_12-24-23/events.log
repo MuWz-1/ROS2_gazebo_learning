@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (ros2_gazebo_template) JobQueued: {'identifier': 'ros2_gazebo_template', 'dependencies': OrderedDict()}
+[0.000935] (ros2_gazebo_template) JobStarted: {'identifier': 'ros2_gazebo_template'}
+[0.007914] (ros2_gazebo_template) JobProgress: {'identifier': 'ros2_gazebo_template', 'progress': 'cmake'}
+[0.008979] (ros2_gazebo_template) JobProgress: {'identifier': 'ros2_gazebo_template', 'progress': 'build'}
+[0.009039] (ros2_gazebo_template) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/ros_ws/build/ros2_gazebo_template', '--', '-j20', '-l20'], 'cwd': '/home/ubuntu/ros_ws/build/ros2_gazebo_template', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SHLVL', '1'), ('LIBGL_ALWAYS_SOFTWARE', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/ros_ws/world'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'ubuntu'), ('NAME', 'LAPTOP-I89OMEBJ'), ('WSL_INTEROP', '/run/WSL/1034_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('LIBGL_ALWAYS_INDIRECT', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.2.5.0_x64__8wekyb3d8bbwe:/mnt/e/WorkSpace/bin/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/d/Program Files/CMake/bin:/mnt/d/Program Files/MATLAB/R2022a/runtime/win64:/mnt/d/Program Files/MATLAB/R2022a/bin:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/d/OpenCV/newBuild/install/x64/vc17/bin:/mnt/c/Strawberry/c/bin:/mnt/c/Strawberry/perl/site/bin:/mnt/c/Strawberry/perl/bin:/mnt/f/plsySpace/libtorchDebug12cpu/bin:/mnt/f/plsySpace/libtorchDebug12cpu/lib:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2022.1.1/:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.6/libnvvp:/mnt/f/playSpace/Anna:/mnt/f/playSpace/Anna/Scripts:/mnt/f/plsySpace/Anna/Library/bin:/mnt/f/playSpace/Anna/Library/usr/bin:/mnt/f/playSpace/Anna/Library/mingw-w64/bin:/mnt/c/Program Files/PCL 1.13.0/3rdParty/OpenNI2/Redist/:/mnt/c/Program Files/PCL 1.13.0/3rdParty/OpenNI2/Lib/:/mnt/c/Program Files/PCL 1.13.0/3rdParty/OpenNI2/Include/:/mnt/c/Users/简素言/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/简素言/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/简素言/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/简素言/.dotnet/tools:/mnt/f/Program Files/JetBrains/PyCharm Community Edition 2023.1/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:1d52f473-c11e-40e4-b882-ff2c910daeab'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('BASH_ENV', '/etc/bash.bashrc'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ubuntu/ros_ws/build/ros2_gazebo_template'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('VTE_VERSION', '6800'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'BASH_ENV/u'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.054238] (ros2_gazebo_template) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o\x1b[0m\n'}
+[0.099999] (-) TimerEvent: {}
+[0.200564] (-) TimerEvent: {}
+[0.301165] (-) TimerEvent: {}
+[0.401807] (-) TimerEvent: {}
+[0.502504] (-) TimerEvent: {}
+[0.603044] (-) TimerEvent: {}
+[0.703631] (-) TimerEvent: {}
+[0.804419] (-) TimerEvent: {}
+[0.905235] (-) TimerEvent: {}
+[1.005953] (-) TimerEvent: {}
+[1.106395] (-) TimerEvent: {}
+[1.206887] (-) TimerEvent: {}
+[1.307430] (-) TimerEvent: {}
+[1.408159] (-) TimerEvent: {}
+[1.508541] (-) TimerEvent: {}
+[1.609114] (-) TimerEvent: {}
+[1.711118] (-) TimerEvent: {}
+[1.811526] (-) TimerEvent: {}
+[1.911870] (-) TimerEvent: {}
+[2.012219] (-) TimerEvent: {}
+[2.112692] (-) TimerEvent: {}
+[2.213375] (-) TimerEvent: {}
+[2.314086] (-) TimerEvent: {}
+[2.414735] (-) TimerEvent: {}
+[2.515368] (-) TimerEvent: {}
+[2.615940] (-) TimerEvent: {}
+[2.716644] (-) TimerEvent: {}
+[2.817188] (-) TimerEvent: {}
+[2.918007] (-) TimerEvent: {}
+[3.018625] (-) TimerEvent: {}
+[3.119449] (-) TimerEvent: {}
+[3.220160] (-) TimerEvent: {}
+[3.320793] (-) TimerEvent: {}
+[3.421357] (-) TimerEvent: {}
+[3.521980] (-) TimerEvent: {}
+[3.622544] (-) TimerEvent: {}
+[3.723106] (-) TimerEvent: {}
+[3.823499] (-) TimerEvent: {}
+[3.923957] (-) TimerEvent: {}
+[4.024326] (-) TimerEvent: {}
+[4.124761] (-) TimerEvent: {}
+[4.225244] (-) TimerEvent: {}
+[4.325727] (-) TimerEvent: {}
+[4.426310] (-) TimerEvent: {}
+[4.526948] (-) TimerEvent: {}
+[4.627750] (-) TimerEvent: {}
+[4.728291] (-) TimerEvent: {}
+[4.828878] (-) TimerEvent: {}
+[4.929482] (-) TimerEvent: {}
+[5.030083] (-) TimerEvent: {}
+[5.130796] (-) TimerEvent: {}
+[5.231525] (-) TimerEvent: {}
+[5.332282] (-) TimerEvent: {}
+[5.432925] (-) TimerEvent: {}
+[5.533612] (-) TimerEvent: {}
+[5.634398] (-) TimerEvent: {}
+[5.735365] (-) TimerEvent: {}
+[5.835901] (-) TimerEvent: {}
+[5.936549] (-) TimerEvent: {}
+[5.939407] (ros2_gazebo_template) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:10\x1b[m\x1b[K:\n'}
+[5.948749] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:20:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.948809] (ros2_gazebo_template) StderrLine: {'line': b'   20 |         public: \x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K();\n'}
+[5.948846] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.948876] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:22:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected class-name before \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.948908] (ros2_gazebo_template) StderrLine: {'line': b'   22 |         public: virtual ~GazeboRosTemplate\x1b[01;31m\x1b[K(\x1b[m\x1b[K);\n'}
+[5.948935] (ros2_gazebo_template) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.948961] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsgs\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.948989] (ros2_gazebo_template) StderrLine: {'line': b'   28 |         OnMsg(const std::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::msg::String::ConstSharedPtr msg);\n'}
+[5.949018] (ros2_gazebo_template) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.949046] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.949077] (ros2_gazebo_template) StderrLine: {'line': b'   28 |         OnMsg(const std::msgs::msg\x1b[01;31m\x1b[K::\x1b[m\x1b[KString::ConstSharedPtr msg);\n'}
+[5.949106] (ros2_gazebo_template) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[5.949132] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.949158] (ros2_gazebo_template) StderrLine: {'line': b'   28 |         OnMsg\x1b[34m\x1b[K(\x1b[m\x1b[Kconst std::msgs::msg\x1b[01;31m\x1b[K:\x1b[m\x1b[K\x1b[32m\x1b[K:\x1b[m\x1b[KString::ConstSharedPtr msg);\n'}
+[5.949187] (ros2_gazebo_template) StderrLine: {'line': b'      |              \x1b[34m\x1b[K~\x1b[m\x1b[K                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~\x1b[m\x1b[K\n'}
+[5.949216] (ros2_gazebo_template) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[5.949239] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[5.949267] (ros2_gazebo_template) StderrLine: {'line': b'   28 |         OnMsg(const std::msgs::\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K::String::ConstSharedPtr msg);\n'}
+[5.949293] (ros2_gazebo_template) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.949319] (ros2_gazebo_template) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[5.949344] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[5.949376] (ros2_gazebo_template) StderrLine: {'line': b'   28 |         OnMsg(const std::msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K::ConstSharedPtr msg);\n'}
+[5.949399] (ros2_gazebo_template) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.999239] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KGazeboTemplate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.999410] (ros2_gazebo_template) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::GazeboRosTemplate()\n'}
+[5.999444] (ros2_gazebo_template) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.999471] (ros2_gazebo_template) StderrLine: {'line': b'      |         \x1b[32m\x1b[KGazeboTemplate\x1b[m\x1b[K\n'}
+[6.002939] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:29:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[KGazeboTemplate\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.003030] (ros2_gazebo_template) StderrLine: {'line': b'   29 |         \x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::~GazeboRosTemplate()\n'}
+[6.003063] (ros2_gazebo_template) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.003090] (ros2_gazebo_template) StderrLine: {'line': b'      |         \x1b[32m\x1b[KGazeboTemplate\x1b[m\x1b[K\n'}
+[6.010254] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual void gazebo::GazeboTemplate::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.010346] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:39:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_qos\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.010380] (ros2_gazebo_template) StderrLine: {'line': b'   39 |                 const gazebo_ros::QoS& qos = impl_->ros_node_>\x1b[01;31m\x1b[Kget_qos\x1b[m\x1b[K();\n'}
+[6.010415] (ros2_gazebo_template) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.010654] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:48:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[6.010697] (ros2_gazebo_template) StderrLine: {'line': b'   48 |                         std::bind(&\x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::OnMsg, this, std::placeholders::_1)\n'}
+[6.010725] (ros2_gazebo_template) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.010924] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:60:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KConnectWorldUpdateBegin\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kgazebo::event::Event\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.011026] (ros2_gazebo_template) StderrLine: {'line': b'   60 |                 impl_->update_connection_ = gazebo::event::Event::\x1b[01;31m\x1b[KConnectWorldUpdateBegin\x1b[m\x1b[K(\n'}
+[6.011061] (ros2_gazebo_template) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.011090] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:61:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 is not a class, namespace, or enumeration\n'}
+[6.011121] (ros2_gazebo_template) StderrLine: {'line': b'   61 |                         std::bind(&\x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::OnUpdate, this)\n'}
+[6.011148] (ros2_gazebo_template) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.011333] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.011411] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:65:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.011447] (ros2_gazebo_template) StderrLine: {'line': b'   65 |         void \x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::OnMsg(const std_msgs::msg::String::ConstSharedPtr _msg)\n'}
+[6.011476] (ros2_gazebo_template) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.026534] (ros2_gazebo_template) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[6.027169] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[6.027244] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[6.027302] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[6.027345] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[6.027415] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[6.027513] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[6.027584] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[6.027618] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[6.027688] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.027778] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/gazebo_ros/node.hpp:18\x1b[m\x1b[K,\n'}
+[6.027873] (ros2_gazebo_template) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:4\x1b[m\x1b[K:\n'}
+[6.027975] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::OnMsg(std_msgs::msg::String_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.028248] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimpl_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmpl_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[6.028296] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 RCLCPP_INFO(\x1b[01;31m\x1b[Kimpl_\x1b[m\x1b[K->ros_node_->get_logger(), "I heard!");\n'}
+[6.028325] (ros2_gazebo_template) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.028354] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.028386] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(impl_->ros_node_->get_logger(), "I heard!");\n'}
+[6.028410] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.028437] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.028472] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(impl_->ros_node_->get_logger(), "I heard!");\n'}
+[6.028505] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.028536] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.028587] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(impl_->ros_node_->get_logger(), "I heard!");\n'}
+[6.028619] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.028657] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.028700] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(impl_->ros_node_->get_logger(), "I heard!");\n'}
+[6.028758] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.028836] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[6.028896] (ros2_gazebo_template) StderrLine: {'line': b'   67 |                 \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(impl_->ros_node_->get_logger(), "I heard!");\n'}
+[6.028964] (ros2_gazebo_template) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.029076] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:\x1b[m\x1b[K At global scope:\n'}
+[6.029166] (ros2_gazebo_template) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:70:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KGazeboRosTemplate\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[6.029243] (ros2_gazebo_template) StderrLine: {'line': b'   70 |         void \x1b[01;31m\x1b[KGazeboRosTemplate\x1b[m\x1b[K::OnUpdate()\n'}
+[6.029290] (ros2_gazebo_template) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.036762] (-) TimerEvent: {}
+[6.137230] (-) TimerEvent: {}
+[6.237668] (-) TimerEvent: {}
+[6.338225] (-) TimerEvent: {}
+[6.438705] (-) TimerEvent: {}
+[6.539474] (-) TimerEvent: {}
+[6.640076] (-) TimerEvent: {}
+[6.740735] (-) TimerEvent: {}
+[6.841215] (-) TimerEvent: {}
+[6.941804] (-) TimerEvent: {}
+[7.042586] (-) TimerEvent: {}
+[7.142944] (-) TimerEvent: {}
+[7.243674] (-) TimerEvent: {}
+[7.344123] (-) TimerEvent: {}
+[7.444666] (-) TimerEvent: {}
+[7.545199] (-) TimerEvent: {}
+[7.645533] (-) TimerEvent: {}
+[7.746000] (-) TimerEvent: {}
+[7.846541] (-) TimerEvent: {}
+[7.935156] (ros2_gazebo_template) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76\xef\xbc\x9aCMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.935327] (ros2_gazebo_template) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/ros2_gazebo_template.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.935446] (ros2_gazebo_template) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.937106] (ros2_gazebo_template) CommandEnded: {'returncode': 2}
+[7.946937] (-) TimerEvent: {}
+[7.967781] (ros2_gazebo_template) JobEnded: {'identifier': 'ros2_gazebo_template', 'rc': 2}
+[7.969502] (-) EventReactorShutdown: {}

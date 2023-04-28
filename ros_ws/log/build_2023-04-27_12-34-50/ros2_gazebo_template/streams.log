@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target ros2_gazebo_template[0m
+[0.063s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o[0m
+[12.339s] [100%] [32m[1mLinking CXX shared library libros2_gazebo_template.so[0m
+[13.142s] [100%] Built target ros2_gazebo_template
+[13.157s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[13.189s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[13.193s] -- Install configuration: ""
+[13.193s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.sh
+[13.193s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.dsv
+[13.193s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/package_run_dependencies/ros2_gazebo_template
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/parent_prefix_path/ros2_gazebo_template
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.sh
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.dsv
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.sh
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.dsv
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.bash
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.sh
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.zsh
+[13.194s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.dsv
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.dsv
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/packages/ros2_gazebo_template
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_libraries-extras.cmake
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig.cmake
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig-version.cmake
+[13.195s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.xml
+[13.196s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template

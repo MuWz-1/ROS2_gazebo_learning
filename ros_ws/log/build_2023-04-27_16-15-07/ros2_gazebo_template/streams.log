@@ -1,0 +1,114 @@
+[0.007s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o[0m
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+[4.795s]    22 |                 rclcpp::Subscription<std_msgs::msg::[01;31m[Kstring[m[K>::SharedPtr subscriber_;
+[4.795s]       |                                                     [01;31m[K^~~~~~[m[K
+[4.795s]       |                                                     [32m[KString[m[K
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.795s]    22 |                 rclcpp::Subscription<std_msgs::msg::string[01;31m[K>[m[K::SharedPtr subscriber_;
+[4.795s]       |                                                           [01;31m[K^[m[K
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[4.795s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:62:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.795s]    22 |                 rclcpp::Subscription<std_msgs::msg::string>::[01;31m[KSharedPtr[m[K subscriber_;
+[4.795s]       |                                                              [01;31m[K^~~~~~~~~[m[K
+[4.795s]       |                                                                       [32m[K;[m[K
+[4.810s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:22:72:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ does not name a type
+[4.810s]    22 |                 rclcpp::Subscription<std_msgs::msg::string>::SharedPtr [01;31m[Ksubscriber_[m[K;
+[4.810s]       |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+[4.812s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosTemplate::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[4.812s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:43:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboRosTemplatePrivate[m[K’ has no member named ‘[01m[Ksubscriber_[m[K’
+[4.812s]    43 |                 impl_->[01;31m[Ksubscriber_[m[K = impl_->ros_node_->create_subscription<std_msgs::msg::string>(
+[4.812s]       |                        [01;31m[K^~~~~~~~~~~[m[K
+[4.812s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:43:91:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KString[m[K’?
+[4.812s]    43 |                 impl_->subscriber_ = impl_->ros_node_->create_subscription<std_msgs::msg::[01;31m[Kstring[m[K>(
+[4.812s]       |                                                                                           [01;31m[K^~~~~~[m[K
+[4.812s]       |                                                                                           [32m[KString[m[K
+[4.816s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:43:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgazebo_ros::Node::create_subscription<<expression error> >(const char [9], rclcpp::QoS, std::_Bind_helper<false, void (gazebo::GazeboRosTemplate::*)(std::shared_ptr<const std_msgs::msg::String_<std::allocator<void> > >), gazebo::GazeboRosTemplate*, const std::_Placeholder<1>&>::type)[m[K’
+[4.816s]    43 |                 impl_->subscriber_ = [01;31m[Kimpl_->ros_node_->create_subscription<std_msgs::msg::string>([m[K
+[4.816s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.816s]    44 | [01;31m[K                        "elevator",[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~[m[K                                                               
+[4.816s]    45 | [01;31m[K                        // topic name[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~[m[K                                                             
+[4.816s]    46 | [01;31m[K                        qos.get_subscription_qos("elevator", rclcpp::QoS(1)),[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[4.816s]    47 | [01;31m[K                        // qos_history_depth(The depth of the subscription's incoming message queue.)[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.816s]    48 | [01;31m[K                        std::bind(&GazeboRosTemplate::OnMsg, this, std::placeholders::_1)[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+[4.816s]    49 | [01;31m[K                        // rclcpp::callback_group::CallbackGroup::SharedPtr[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[4.816s]    50 | [01;31m[K                        // callback(The user-defined callback function.)[m[K
+[4.816s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[4.817s]    51 | [01;31m[K                        // std::bind 用来将可调用对象与其参数一起进行绑定。[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[4.817s]    52 | [01;31m[K                        // 绑定后的结果可以使用 std::function 进行保存（实际上 std::bind 的返回类型是一个 stl 内部定义的仿函数类型），[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.817s]    53 | [01;31m[K                        // 并延迟调用到任何我们需要的时候。[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+[4.817s]    54 | [01;31m[K                        // std::placeholders::_1 是一个占位符，代表这个位置将在函数调用时，[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       
+[4.817s]    55 | [01;31m[K                        // 被传入的第一个参数所替代。[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                             
+[4.817s]    56 | [01;31m[K                )[m[K;
+[4.817s]       |                 [01;31m[K~[m[K                                                                                 
+[4.817s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[4.817s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.817s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+[4.817s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:4[m[K:
+[4.817s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[4.817s]   219 |   [01;36m[Kcreate_subscription[m[K(
+[4.817s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[4.817s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.817s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:43:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.817s]    43 |                 impl_->subscriber_ = [01;31m[Kimpl_->ros_node_->create_subscription<std_msgs::msg::string>([m[K
+[4.817s]       |                                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[4.817s]    44 | [01;31m[K                        "elevator",[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~[m[K                                                               
+[4.817s]    45 | [01;31m[K                        // topic name[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~[m[K                                                             
+[4.817s]    46 | [01;31m[K                        qos.get_subscription_qos("elevator", rclcpp::QoS(1)),[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                     
+[4.817s]    47 | [01;31m[K                        // qos_history_depth(The depth of the subscription's incoming message queue.)[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.817s]    48 | [01;31m[K                        std::bind(&GazeboRosTemplate::OnMsg, this, std::placeholders::_1)[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K         
+[4.817s]    49 | [01;31m[K                        // rclcpp::callback_group::CallbackGroup::SharedPtr[m[K
+[4.817s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[4.818s]    50 | [01;31m[K                        // callback(The user-defined callback function.)[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                          
+[4.818s]    51 | [01;31m[K                        // std::bind 用来将可调用对象与其参数一起进行绑定。[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+[4.818s]    52 | [01;31m[K                        // 绑定后的结果可以使用 std::function 进行保存（实际上 std::bind 的返回类型是一个 stl 内部定义的仿函数类型），[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.818s]    53 | [01;31m[K                        // 并延迟调用到任何我们需要的时候。[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+[4.818s]    54 | [01;31m[K                        // std::placeholders::_1 是一个占位符，代表这个位置将在函数调用时，[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K       
+[4.818s]    55 | [01;31m[K                        // 被传入的第一个参数所替代。[m[K
+[4.818s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                             
+[4.818s]    56 | [01;31m[K                )[m[K;
+[4.818s]       |                 [01;31m[K~[m[K                                                                                 
+[4.818s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.818s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.819s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.819s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+[4.819s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:4[m[K:
+[4.819s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:57:90:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass gazebo::GazeboRosTemplatePrivate[m[K’ has no member named ‘[01m[Ksubscriber_[m[K’
+[4.819s]    57 |                 RCLCPP_INFO(impl_->ros_node_->get_logger(), "Subscribed to [%s]", impl_->[01;31m[Ksubscriber_[m[K->get_topic_name());
+[4.819s]       |                                                                                          [01;31m[K^~~~~~~~~~~[m[K
+[6.127s] gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76：CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] 错误 1
+[6.127s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_gazebo_template.dir/all] 错误 2
+[6.127s] gmake: *** [Makefile:146：all] 错误 2
+[6.129s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20

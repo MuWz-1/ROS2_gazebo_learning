@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o[0m
+In file included from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:10[m[K:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/std_msgs/msg/String.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K<std_msgs/std_msgs/msg/String.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76：CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_gazebo_template.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

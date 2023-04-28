@@ -1,0 +1,141 @@
+[0.008s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target ros2_gazebo_template[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o[0m
+[5.981s] In file included from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:10[m[K:
+[5.981s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgs[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+[5.981s]    28 |         OnMsg(const std::[01;31m[Kmsgs[m[K::msg::String::ConstSharedPtr msg);
+[5.981s]       |                          [01;31m[K^~~~[m[K
+[5.981s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[5.981s]    28 |         OnMsg(const std::msgs::msg[01;31m[K::[m[KString::ConstSharedPtr msg);
+[5.981s]       |                                   [01;31m[K^~[m[K
+[5.981s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[5.981s]    28 |         OnMsg[34m[K([m[Kconst std::msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::ConstSharedPtr msg);
+[5.981s]       |              [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+[5.981s]       |                                   [32m[K)[m[K
+[5.981s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[5.981s]    28 |         OnMsg(const std::msgs::[01;31m[Kmsg[m[K::String::ConstSharedPtr msg);
+[5.981s]       |                                [01;31m[K^~~[m[K
+[5.981s]       |                                   [32m[K;[m[K
+[5.983s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[5.983s]    28 |         OnMsg(const std::msgs::msg::[01;31m[KString[m[K::ConstSharedPtr msg);
+[5.984s]       |                                     [01;31m[K^~~~~~[m[K
+[6.039s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In constructor ‘[01m[Kgazebo::GazeboRosTemplate::GazeboRosTemplate()[m[K’:
+[6.039s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:26:42:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplatePreivate[m[K’ was not declared in this scope; did you mean ‘[01m[KGazeboRosTemplatePrivate[m[K’?
+[6.039s]    26 |                 : impl_(std::make_unique<[01;31m[KGazeboRosTemplatePreivate[m[K>())
+[6.040s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.040s]       |                                          [32m[KGazeboRosTemplatePrivate[m[K
+[6.040s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:26:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >()[m[K’
+[6.040s]    26 |                 : impl_([01;31m[Kstd::make_unique<GazeboRosTemplatePreivate>()[m[K)
+[6.040s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.040s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.040s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[6.040s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[6.040s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[6.040s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[6.040s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:1[m[K:
+[6.040s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[6.040s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[6.040s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.041s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.041s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:26:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.041s]    26 |                 : impl_([01;31m[Kstd::make_unique<GazeboRosTemplatePreivate>()[m[K)
+[6.041s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.041s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[6.041s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[6.041s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:1[m[K:
+[6.041s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[6.041s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[6.041s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.041s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.041s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:26:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.041s]    26 |                 : impl_([01;31m[Kstd::make_unique<GazeboRosTemplatePreivate>()[m[K)
+[6.041s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.041s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function/function_base.hpp:16[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function/detail/prologue.hpp:17[m[K,
+[6.041s]                  from [01m[K/usr/include/boost/function.hpp:30[m[K,
+[6.041s]                  from [01m[K/usr/include/gazebo-11/gazebo/physics/Model.hh:24[m[K,
+[6.042s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:1[m[K:
+[6.042s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[6.042s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[6.042s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[6.042s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.042s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:26:68:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.042s]    26 |                 : impl_([01;31m[Kstd::make_unique<GazeboRosTemplatePreivate>()[m[K)
+[6.042s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.056s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboRosTemplate::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[6.056s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:39:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qos[m[K’ was not declared in this scope
+[6.056s]    39 |                 const gazebo_ros::QoS& qos = impl_->ros_node_>[01;31m[Kget_qos[m[K();
+[6.056s]       |                                                               [01;31m[K^~~~~~~[m[K
+[6.063s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:60:67:[m[K [01;31m[Kerror: [m[K‘[01m[KConnectWorldUpdateBegin[m[K’ is not a member of ‘[01m[Kgazebo::event::Event[m[K’
+[6.063s]    60 |                 impl_->update_connection_ = gazebo::event::Event::[01;31m[KConnectWorldUpdateBegin[m[K(
+[6.063s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.065s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K At global scope:
+[6.065s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:65:14:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvoid gazebo::GazeboRosTemplate::OnMsg(std_msgs::msg::String_<std::allocator<void> >::ConstSharedPtr)[m[K’
+[6.065s]    65 |         void [01;31m[KGazeboRosTemplate[m[K::OnMsg(const std_msgs::msg::String::ConstSharedPtr _msg)
+[6.065s]       |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[6.065s] In file included from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:10[m[K:
+[6.065s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual void gazebo::GazeboRosTemplate::OnMsg(...)[m[K’
+[6.065s]    28 |         [01;36m[KOnMsg[m[K(const std::msgs::msg::String::ConstSharedPtr msg);
+[6.065s]       |         [01;36m[K^~~~~[m[K
+[6.065s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:18:11:[m[K [01;36m[Knote: [m[K‘[01m[Kclass gazebo::GazeboRosTemplate[m[K’ defined here
+[6.066s]    18 |     class [01;36m[KGazeboRosTemplate[m[K : public gazebo::ModelPlugin
+[6.066s]       |           [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.066s] In file included from [01m[K/usr/include/gazebo-11/gazebo/plugins/ElevatorPlugin.hh:28[m[K,
+[6.066s]                  from [01m[K/opt/ros/humble/include/gazebo_plugins/gazebo_ros_elevator.hpp:18[m[K,
+[6.066s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:3[m[K:
+[6.066s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In function ‘[01m[Kgazebo::ModelPlugin* gazebo::RegisterPlugin()[m[K’:
+[6.066s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[Kexpected type-specifier before ‘[01m[KGazeboTemplate[m[K’
+[6.066s]    77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+[6.066s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.066s] [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+[6.066s]   459 |     return new [01;36m[Kclassname[m[K();\
+[6.066s]       |                [01;36m[K^~~~~~~~~[m[K
+[6.066s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KGazeboTemplate[m[K’
+[6.066s]    77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+[6.066s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.066s] [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+[6.066s]   459 |     return new [01;36m[Kclassname[m[K();\
+[6.066s]       |                [01;36m[K^~~~~~~~~[m[K
+[6.072s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:77:34:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboTemplate[m[K’ was not declared in this scope; did you mean ‘[01m[KGazeboRosTemplate[m[K’?
+[6.072s]    77 |         GZ_REGISTER_MODEL_PLUGIN([01;31m[KGazeboTemplate[m[K)
+[6.072s]       |                                  [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.072s] [01m[K/usr/include/gazebo-11/gazebo/common/Plugin.hh:459:16:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGZ_REGISTER_MODEL_PLUGIN[m[K’
+[6.072s]   459 |     return new [01;36m[Kclassname[m[K();\
+[6.072s]       |                [01;36m[K^~~~~~~~~[m[K
+[7.438s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:39[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.438s]                  from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+[7.438s]                  from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:4[m[K:
+[7.438s] /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp: In instantiation of ‘[01m[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)> >[m[K’:
+[7.438s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   recursively required by substitution of ‘[01m[Ktemplate<class MessageT, class CallbackT> struct rclcpp::detail::SubscriptionCallbackTypeHelper<MessageT, CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_ptr<_Tp>, const rclcpp::MessageInfo&)> >::value, void>::type> [with MessageT = std_msgs::msg::String_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>][m[K’
+[7.438s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:380:10:[m[K   required from ‘[01m[Krclcpp::AnySubscriptionCallback<MessageT, AllocatorT> rclcpp::AnySubscriptionCallback<MessageT, AllocatorT>::set(CallbackT) [with CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>; MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[7.438s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp:94:32:[m[K   required from ‘[01m[Krclcpp::SubscriptionFactory rclcpp::create_subscription_factory(CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType> >) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >; ROSMessageType = std_msgs::msg::String_<std::allocator<void> >; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:122:63:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::detail::create_subscription(NodeParametersT&, NodeTopicsT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >; NodeParametersT = rclcpp::Node; NodeTopicsT = rclcpp::Node; ROSMessageType = std_msgs::msg::String_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:191:76:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::create_subscription(NodeT&, const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >; NodeT = rclcpp::Node; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:99:47:[m[K   required from ‘[01m[Kstd::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; CallbackT = std::_Bind<void (gazebo::GazeboRosTemplate::*(gazebo::GazeboRosTemplate*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; SubscriptionT = rclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> > >][m[K’
+[7.439s] [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:43:84:[m[K   required from here
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[7.439s]    51 |   using [01;31m[Karguments[m[K = typename tuple_tail<
+[7.439s]       |         [01;31m[K^~~~~~~~~[m[K
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[7.439s]    57 |   using [01;31m[Kargument_type[m[K = typename std::tuple_element<N, arguments>::type;
+[7.439s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[7.439s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:59:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdecltype[m[K’ cannot resolve address of overloaded function
+[7.439s]    59 |   using [01;31m[Kreturn_type[m[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;
+[7.439s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[9.189s] gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76：CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] 错误 1
+[9.189s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_gazebo_template.dir/all] 错误 2
+[9.189s] gmake: *** [Makefile:146：all] 错误 2
+[9.192s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20

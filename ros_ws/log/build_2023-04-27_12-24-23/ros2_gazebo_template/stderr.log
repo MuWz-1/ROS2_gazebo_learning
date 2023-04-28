@@ -1,0 +1,87 @@
+In file included from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:10[m[K:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:20:17:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KGazeboRosTemplate[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   20 |         public: [01;31m[KGazeboRosTemplate[m[K();
+      |                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:22:43:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K([m[K’ token
+   22 |         public: virtual ~GazeboRosTemplate[01;31m[K([m[K);
+      |                                           [01;31m[K^[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsgs[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a type
+   28 |         OnMsg(const std::[01;31m[Kmsgs[m[K::msg::String::ConstSharedPtr msg);
+      |                          [01;31m[K^~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+   28 |         OnMsg(const std::msgs::msg[01;31m[K::[m[KString::ConstSharedPtr msg);
+      |                                   [01;31m[K^~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   28 |         OnMsg[34m[K([m[Kconst std::msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::ConstSharedPtr msg);
+      |              [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+      |                                   [32m[K)[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |         OnMsg(const std::msgs::[01;31m[Kmsg[m[K::String::ConstSharedPtr msg);
+      |                                [01;31m[K^~~[m[K
+      |                                   [32m[K;[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.hpp:28:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+   28 |         OnMsg(const std::msgs::msg::[01;31m[KString[m[K::ConstSharedPtr msg);
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ does not name a type; did you mean ‘[01m[KGazeboTemplate[m[K’?
+   25 |         [01;31m[KGazeboRosTemplate[m[K::GazeboRosTemplate()
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KGazeboTemplate[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ does not name a type; did you mean ‘[01m[KGazeboTemplate[m[K’?
+   29 |         [01;31m[KGazeboRosTemplate[m[K::~GazeboRosTemplate()
+      |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |         [32m[KGazeboTemplate[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In member function ‘[01m[Kvirtual void gazebo::GazeboTemplate::Load(gazebo::physics::ModelPtr, sdf::v9::ElementPtr)[m[K’:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:39:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_qos[m[K’ was not declared in this scope
+   39 |                 const gazebo_ros::QoS& qos = impl_->ros_node_>[01;31m[Kget_qos[m[K();
+      |                                                               [01;31m[K^~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:48:36:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ is not a class, namespace, or enumeration
+   48 |                         std::bind(&[01;31m[KGazeboRosTemplate[m[K::OnMsg, this, std::placeholders::_1)
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:60:67:[m[K [01;31m[Kerror: [m[K‘[01m[KConnectWorldUpdateBegin[m[K’ is not a member of ‘[01m[Kgazebo::event::Event[m[K’
+   60 |                 impl_->update_connection_ = gazebo::event::Event::[01;31m[KConnectWorldUpdateBegin[m[K(
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:61:36:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ is not a class, namespace, or enumeration
+   61 |                         std::bind(&[01;31m[KGazeboRosTemplate[m[K::OnUpdate, this)
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:65:14:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ has not been declared
+   65 |         void [01;31m[KGazeboRosTemplate[m[K::OnMsg(const std_msgs::msg::String::ConstSharedPtr _msg)
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/gazebo_ros/node.hpp:18[m[K,
+                 from [01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:4[m[K:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K In function ‘[01m[Kvoid gazebo::OnMsg(std_msgs::msg::String_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kimpl_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmpl_[m[K’?
+   67 |                 RCLCPP_INFO([01;31m[Kimpl_[m[K->ros_node_->get_logger(), "I heard!");
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |                 [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard!");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 |                 [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard!");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |                 [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard!");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   67 |                 [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard!");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:67:17:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |                 [01;31m[KRCLCPP_INFO[m[K(impl_->ros_node_->get_logger(), "I heard!");
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:[m[K At global scope:
+[01m[K/home/ubuntu/ros_ws/src/ros2_gazebo_template/src/ros2_gazebo_template.cpp:70:14:[m[K [01;31m[Kerror: [m[K‘[01m[KGazeboRosTemplate[m[K’ has not been declared
+   70 |         void [01;31m[KGazeboRosTemplate[m[K::OnUpdate()
+      |              [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_gazebo_template.dir/build.make:76：CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/ros2_gazebo_template.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

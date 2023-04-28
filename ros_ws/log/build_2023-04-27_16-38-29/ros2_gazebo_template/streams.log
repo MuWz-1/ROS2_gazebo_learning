@@ -1,0 +1,108 @@
+[0.006s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[0.021s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.096s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.371s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.372s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.376s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.510s] -- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)
+[0.526s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.542s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.542s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.546s] -- Searching for dependencies of ignition-math6
+[0.546s] -- Looking for OGRE...
+[0.550s] -- Found Ogre Ghadamon (1.9.0)
+[0.550s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.556s] -- Looking for OGRE_Paging...
+[0.556s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.556s] -- Looking for OGRE_Terrain...
+[0.556s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.556s] -- Looking for OGRE_Property...
+[0.556s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.556s] -- Looking for OGRE_RTShaderSystem...
+[0.556s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.557s] -- Looking for OGRE_Volume...
+[0.557s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.557s] -- Looking for OGRE_Overlay...
+[0.557s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[36.444s] -- Looking for ignition-math6 -- found version 6.12.0
+[36.444s] -- Looking for ignition-transport8 -- found version 8.2.1
+[36.445s] -- Searching for dependencies of ignition-transport8
+[38.859s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[41.186s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[41.189s] -- Checking for module 'libzmq >= 4'
+[41.194s] --   Found libzmq , version 4.3.4
+[41.210s] -- Checking for module 'uuid'
+[41.214s] --   Found uuid, version 2.37.2
+[41.225s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[41.226s] -- Searching for dependencies of ignition-msgs5
+[43.440s] -- Looking for ignition-math6 -- found version 6.12.0
+[43.442s] -- Checking for module 'tinyxml2'
+[43.447s] --   Found tinyxml2, version 9.0.0
+[43.460s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[43.461s] -- Looking for ignition-common3 -- found version 3.14.0
+[43.461s] -- Searching for dependencies of ignition-common3
+[43.461s] -- Looking for dlfcn.h - found
+[43.461s] -- Looking for libdl - found
+[43.624s] -- Searching for <ignition-common3> component [graphics]
+[43.624s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[43.624s] -- Searching for dependencies of ignition-common3-graphics
+[43.625s] -- Looking for ignition-math6 -- found version 6.12.0
+[43.625s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[43.625s] -- Searching for dependencies of ignition-fuel_tools4
+[46.092s] -- Checking for module 'jsoncpp'
+[46.098s] --   Found jsoncpp, version 1.9.5
+[46.113s] -- Checking for module 'libzip'
+[46.118s] --   Found libzip, version 1.7.3
+[46.129s] -- Looking for ignition-common3 -- found version 3.14.0
+[46.129s] -- Looking for ignition-math6 -- found version 6.12.0
+[46.130s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[46.131s] -- Gazebo version: 11.10
+[46.131s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[46.254s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[46.282s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[46.283s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[55.254s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[55.337s] -- Found camera_info_manager: 3.1.5 (/opt/ros/humble/share/camera_info_manager/cmake)
+[55.362s] -- Found image_transport: 3.1.5 (/opt/ros/humble/share/image_transport/cmake)
+[57.575s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[57.624s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[57.634s] -- Found tf2: 0.25.2 (/opt/ros/humble/share/tf2/cmake)
+[57.639s] -- Found tf2_ros: 0.25.2 (/opt/ros/humble/share/tf2_ros/cmake)
+[57.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[57.845s] -- Configured cppcheck include dirs: /home/ubuntu/ros_ws/src/ros2_gazebo_template/include
+[57.845s] -- Configured cppcheck exclude dirs and/or files: 
+[57.845s] -- Added test 'lint_cmake' to check CMake code style
+[57.845s] -- Added test 'uncrustify' to check C / C++ code style
+[57.845s] -- Configured uncrustify additional arguments: 
+[57.845s] -- Added test 'xmllint' to check XML markup files
+[57.847s] -- Configuring done
+[57.857s] -- Generating done
+[57.859s] -- Build files have been written to: /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[57.875s] [35m[1mConsolidate compiler generated dependencies of target ros2_gazebo_template[0m
+[57.889s] [100%] Built target ros2_gazebo_template
+[57.894s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[57.911s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[57.914s] -- Install configuration: ""
+[57.914s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.sh
+[57.914s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.dsv
+[57.914s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/package_run_dependencies/ros2_gazebo_template
+[57.914s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/parent_prefix_path/ros2_gazebo_template
+[57.914s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.sh
+[57.914s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.dsv
+[57.914s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.sh
+[57.914s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.dsv
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.bash
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.sh
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.zsh
+[57.915s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.dsv
+[57.915s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.dsv
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/packages/ros2_gazebo_template
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_libraries-extras.cmake
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.915s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.916s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig.cmake
+[57.916s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig-version.cmake
+[57.916s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.xml
+[57.918s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template

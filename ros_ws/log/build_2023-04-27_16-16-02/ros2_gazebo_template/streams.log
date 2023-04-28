@@ -1,0 +1,29 @@
+[0.009s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target ros2_gazebo_template[0m
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_gazebo_template.dir/src/ros2_gazebo_template.cpp.o[0m
+[8.936s] [100%] [32m[1mLinking CXX shared library libros2_gazebo_template.so[0m
+[9.522s] [100%] Built target ros2_gazebo_template
+[9.529s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/ros_ws/build/ros2_gazebo_template -- -j20 -l20
+[9.548s] Invoking command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
+[9.551s] -- Install configuration: ""
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.sh
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/library_path.dsv
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/package_run_dependencies/ros2_gazebo_template
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/parent_prefix_path/ros2_gazebo_template
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.sh
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/ament_prefix_path.dsv
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.sh
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/environment/path.dsv
+[9.551s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.bash
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.sh
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.zsh
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/local_setup.dsv
+[9.552s] -- Installing: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.dsv
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ament_index/resource_index/packages/ros2_gazebo_template
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_libraries-extras.cmake
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig.cmake
+[9.552s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/cmake/ros2_gazebo_templateConfig-version.cmake
+[9.553s] -- Up-to-date: /home/ubuntu/ros_ws/install/ros2_gazebo_template/share/ros2_gazebo_template/package.xml
+[9.553s] Invoked command in '/home/ubuntu/ros_ws/build/ros2_gazebo_template' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/ros_ws/build/ros2_gazebo_template
