@@ -17,7 +17,7 @@
       </include>
  
       <!-- Attach the plugin to this model -->
-      <plugin name="velodyne_control" filename="/home/ubuntu/ros_ws/build/ros2_gazebo_template/libros2_gazebo_template.so">
+      <plugin name="velodyne_control" filename="./build/ros2_gazebo_template2/libros2_gazebo_template2.so">
         <velocity>1</velocity>
       </plugin>
     </model>

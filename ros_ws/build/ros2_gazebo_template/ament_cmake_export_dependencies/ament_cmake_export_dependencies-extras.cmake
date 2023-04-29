@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "gazebo_dev;gazebo_msgs;gazebo_ros;rclcpp")
+set(_exported_dependencies "gazebo_dev;gazebo_msgs;gazebo_ros;rclcpp;std_msgs")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

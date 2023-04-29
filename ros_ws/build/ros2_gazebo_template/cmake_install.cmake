@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntu/ros_ws/src/ros2_gazebo_template
+# Install script for directory: /home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/src/ros2_gazebo_template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/ros_ws/install/ros2_gazebo_template")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/install/ros2_gazebo_template")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -47,15 +47,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/library_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/library_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_gazebo_template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ros2_gazebo_template")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_gazebo_template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ros2_gazebo_template")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -71,54 +71,54 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/environment" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/packages/ros2_gazebo_template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_index/share/ament_index/resource_index/packages/ros2_gazebo_template")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template/cmake" TYPE FILE FILES
-    "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_core/ros2_gazebo_templateConfig.cmake"
-    "/home/ubuntu/ros_ws/build/ros2_gazebo_template/ament_cmake_core/ros2_gazebo_templateConfig-version.cmake"
+    "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_core/ros2_gazebo_templateConfig.cmake"
+    "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/ament_cmake_core/ros2_gazebo_templateConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/ros_ws/src/ros2_gazebo_template/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ros2_gazebo_template" TYPE FILE FILES "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/src/ros2_gazebo_template/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntu/ros_ws/build/ros2_gazebo_template/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntu/MuWz-1_github-ws/ROS2_gazebo_learning/ros_ws/build/ros2_gazebo_template/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -87,6 +87,8 @@ ament_export_dependencies(gazebo_msgs)
 ament_export_dependencies(gazebo_ros)
 ament_export_dependencies(rclcpp)
 
+ament_export_dependencies(std_msgs)
+
 if(NOT WIN32)
   if(NOT APPLE)
     set(
