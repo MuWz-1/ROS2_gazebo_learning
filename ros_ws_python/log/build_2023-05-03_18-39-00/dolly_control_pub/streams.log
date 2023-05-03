@@ -1,0 +1,23 @@
+[0.372s] Invoking command in '/home/ubuntu/ros_ws_python/src/dolly_control_pub': PYTHONPATH=/home/ubuntu/ros_ws_python/build/dolly_control_pub/prefix_override:/home/ubuntu/ros_ws_python/install/dolly_control_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dolly_control_pub build --build-base /home/ubuntu/ros_ws_python/build/dolly_control_pub/build install --record /home/ubuntu/ros_ws_python/build/dolly_control_pub/install.log --single-version-externally-managed
+[0.498s] running egg_info
+[0.498s] writing ../../build/dolly_control_pub/dolly_control_pub.egg-info/PKG-INFO
+[0.498s] writing dependency_links to ../../build/dolly_control_pub/dolly_control_pub.egg-info/dependency_links.txt
+[0.499s] writing entry points to ../../build/dolly_control_pub/dolly_control_pub.egg-info/entry_points.txt
+[0.499s] writing requirements to ../../build/dolly_control_pub/dolly_control_pub.egg-info/requires.txt
+[0.499s] writing top-level names to ../../build/dolly_control_pub/dolly_control_pub.egg-info/top_level.txt
+[0.500s] reading manifest file '../../build/dolly_control_pub/dolly_control_pub.egg-info/SOURCES.txt'
+[0.500s] writing manifest file '../../build/dolly_control_pub/dolly_control_pub.egg-info/SOURCES.txt'
+[0.500s] running build
+[0.500s] running build_py
+[0.500s] running install
+[0.500s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.501s]   warnings.warn(
+[0.501s] running install_lib
+[0.501s] running install_data
+[0.501s] running install_egg_info
+[0.502s] removing '/home/ubuntu/ros_ws_python/install/dolly_control_pub/lib/python3.10/site-packages/dolly_control_pub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.502s] Copying ../../build/dolly_control_pub/dolly_control_pub.egg-info to /home/ubuntu/ros_ws_python/install/dolly_control_pub/lib/python3.10/site-packages/dolly_control_pub-0.0.0-py3.10.egg-info
+[0.503s] running install_scripts
+[0.515s] Installing talker script to /home/ubuntu/ros_ws_python/install/dolly_control_pub/lib/dolly_control_pub
+[0.515s] writing list of installed files to '/home/ubuntu/ros_ws_python/build/dolly_control_pub/install.log'
+[0.530s] Invoked command in '/home/ubuntu/ros_ws_python/src/dolly_control_pub' returned '0': PYTHONPATH=/home/ubuntu/ros_ws_python/build/dolly_control_pub/prefix_override:/home/ubuntu/ros_ws_python/install/dolly_control_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dolly_control_pub build --build-base /home/ubuntu/ros_ws_python/build/dolly_control_pub/build install --record /home/ubuntu/ros_ws_python/build/dolly_control_pub/install.log --single-version-externally-managed

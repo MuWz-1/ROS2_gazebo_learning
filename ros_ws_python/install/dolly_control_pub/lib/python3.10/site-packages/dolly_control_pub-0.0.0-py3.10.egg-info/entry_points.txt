@@ -1,0 +1,3 @@
+[console_scripts]
+talker = dolly_control_pub.pub_member_function:main
+
